@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hidden {
+    display: none !important;
+}
+.container {
+    width: 50%;
+    border: 10px solid rgb(174, 171, 171);
+}
+.item {
+    .item-header {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        padding: 10px;
+        cursor: pointer;
+        background-color: burlywood;
+        &:hover {
+            color: blue;
+        }
+    }
+    .item-menu {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-top: 1px solid black;
+        padding: 10px;
+    }
+}
